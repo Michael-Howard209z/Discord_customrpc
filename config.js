@@ -1,5 +1,5 @@
 module.exports = {
-  TOKEN: process.env.TOKEN || '', // Lấy token từ biến môi trường
+  TOKEN: process.env.TOKEN || '', 
   VOICE_CHANNEL_ID: '1376129128423751690', // '1428735965702258790', '1196104553649668136',
   APPLICATION_ID: '1426485738689531936',
   GIF_URL: 'https://i.pinimg.com/originals/0a/d7/35/0ad735f722522d9a424b2a018ff63319.gif',
