@@ -19,7 +19,7 @@ async function buildPresencePayload(client, largeUrl, smallUrl, startTime) {
 
   const activity = {
     name: ACTIVITY_NAME,
-    type: 3,
+    type: 3, // Còn 4, 5 là cái l gì đấy t cũng méo biết nữa hình như chơi game tự tìm hiểu đi!
     application_id: APPLICATION_ID,
     details: DETAILS,
     state: STATE,
